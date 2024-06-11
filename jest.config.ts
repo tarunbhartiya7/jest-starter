@@ -11,6 +11,10 @@ const config: Config.InitialOptions = {
   // collectCoverageFrom: ["<rootDir>/src/app/**/*.ts"],
   // collectCoverageFrom: [`${baseDir}/**/*.ts`],
   testMatch: [`${baseTestDir}/**/*.ts`],
+  // used to insert environment variables in test files
+  // setupFiles: [
+  //   "<rootDir>/config.ts"
+  // ]
 };
 
 export default config;
